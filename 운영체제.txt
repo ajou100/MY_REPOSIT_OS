@@ -1,0 +1,47 @@
+terminal 입력
+
+
+.
+..
+/
+~   home 
+
+ls  현재 디렉토리에 있는 파일 목록 열람
+
+pwd : 현재주소
+cd /home/
+cd .. 상위폴더 이동
+mkdir 폴더만들기
+cp : 복사하기      cp parser.c ~/parser2.c
+rm  파일 삭제           rm parser2.c
+rm -r os     os라는 파일 삭제
+
+
+echo "Hi" > hi.txt     새로운 hi.txt파일 만들어서  hi 입력
+cat ./hi.txt    hi.txt 내용 읽기 
+echo "bye" >> hi.txt   기존 hi.txt파일에  bye 입력
+
+
+| (pipe)
+
+
+
+
+cd~
+mkdir os 
+vim hello.c   코딩 창 열기
+esc i  코딩시작하기
+esc  :w 저장
+esc  :q 나가기
+
+gcc -o hello hello.c    hello.c를 컴파일해서 hello파일에 만듦
+./hello    현재 내 디렉토리에 있는 hello파일 실행 (절대경로)
+
+echo "Hi" | ./hello     hello파일에 Hi추가    (  |는 std출력을 파일입력으로 연결)
+
+
+
+vim .src
+
+
+git clone 검색 및 다운!
